@@ -51,6 +51,10 @@ alias gm="git merge" # + branch name
 alias gmm="git merge master"
 alias gmd="git merge develop"
 
+alias gr="git reset"
+alias grh="git reset --hard"
+alias grs="git reset --soft"
+
 # Nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
