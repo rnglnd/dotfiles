@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users//.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set theme
 ZSH_THEME="robbyrussell"
@@ -17,9 +17,7 @@ ZSH_THEME="robbyrussell"
 # ENABLE_CORRECTION="true"
 
 # PLUGINS
-plugins=(
-  git
-)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
